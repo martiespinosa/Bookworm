@@ -8,7 +8,7 @@
 import Foundation
 
 class BookSearchManager {
-    private let apiKey = "AIzaSyCAKz9nXWuXG5MBeIB1UoPMSpHEQBRFROk"
+    private let apiKey = Bundle.main.object(forInfoDictionaryKey: "SECRET") as? String
     
     func getBooks(searchTerm: String, completion: @escaping (Books?) -> Void) {
         let sessionConfig = URLSessionConfiguration.default

@@ -35,6 +35,8 @@
 		412B10612C5ABFB500A1CB32 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
 		413FF7BF2C5BAAAA006E5AAE /* BookReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewView.swift; sourceTree = "<group>"; };
 		413FF7C12C5BB955006E5AAE /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		41EE0F4C2C74C0A800E3509E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		41EE0F4D2C74C14300E3509E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		412B10402C51905300A1CB32 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				41EE0F4D2C74C14300E3509E /* Info.plist */,
 				412B10412C51905300A1CB32 /* BookwormApp.swift */,
 				412B10432C51905300A1CB32 /* ContentView.swift */,
 				412B10572C52B74A00A1CB32 /* AddBookView.swift */,
@@ -77,6 +80,7 @@
 				412B10512C52A66300A1CB32 /* ReadBook.swift */,
 				413FF7C12C5BB955006E5AAE /* Books.swift */,
 				412B105D2C56878100A1CB32 /* BookSearchManager.swift */,
+				41EE0F4C2C74C0A800E3509E /* Config.xcconfig */,
 				412B10452C51905400A1CB32 /* Assets.xcassets */,
 				412B10472C51905400A1CB32 /* Preview Content */,
 			);
@@ -179,6 +183,7 @@
 /* Begin XCBuildConfiguration section */
 		412B104A2C51905400A1CB32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EE0F4C2C74C0A800E3509E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -242,6 +247,7 @@
 		};
 		412B104B2C51905400A1CB32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EE0F4C2C74C0A800E3509E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -307,6 +313,7 @@
 				DEVELOPMENT_TEAM = Z458PWZBW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +343,7 @@
 				DEVELOPMENT_TEAM = Z458PWZBW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

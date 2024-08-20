@@ -42,8 +42,10 @@ struct DetailBookView: View {
                             Text(readBook.book.volumeInfo.categories?.joined(separator: ", ") ?? "")
                             Text("·")
                             Text(readBook.book.volumeInfo.publishedDate?.prefix(4) ?? "")
-                            Text("·")
-                            Text(readBook.book.volumeInfo.pageCount != 0 ? "\(readBook.book.volumeInfo.pageCount) Pages" : "")
+                            if let pageCount = readBook.book.volumeInfo.pageCount {
+                                Text("·")
+                                Text("\(pageCount) Pages")
+                            }
                         }
                         .font(.callout)
                         .foregroundStyle(.secondary)

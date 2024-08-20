@@ -13,7 +13,7 @@ struct VolumeInfo: Codable, Hashable {
     var authors: [String]?
     var publishedDate: String?
     var description: String?
-    var pageCount: Int
+    var pageCount: Int?
     var categories: [String]?
     var imageLinks: ImageLinks?
 }

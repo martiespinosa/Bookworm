@@ -11,6 +11,14 @@
 		412B10442C51905300A1CB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10432C51905300A1CB32 /* ContentView.swift */; };
 		412B10462C51905400A1CB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412B10452C51905400A1CB32 /* Assets.xcassets */; };
 		412B10492C51905400A1CB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412B10482C51905400A1CB32 /* Preview Assets.xcassets */; };
+		412B10522C52A66300A1CB32 /* ReadBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10512C52A66300A1CB32 /* ReadBook.swift */; };
+		412B10562C52B22800A1CB32 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10552C52B22800A1CB32 /* RatingView.swift */; };
+		412B10582C52B74A00A1CB32 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10572C52B74A00A1CB32 /* AddBookView.swift */; };
+		412B105A2C564AC100A1CB32 /* DetailBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10592C564AC100A1CB32 /* DetailBookView.swift */; };
+		412B105E2C56878100A1CB32 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B105D2C56878100A1CB32 /* BookSearchManager.swift */; };
+		412B10622C5ABFB500A1CB32 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B10612C5ABFB500A1CB32 /* BookRowView.swift */; };
+		413FF7C02C5BAAAA006E5AAE /* BookReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FF7BF2C5BAAAA006E5AAE /* BookReviewView.swift */; };
+		413FF7C22C5BB955006E5AAE /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FF7C12C5BB955006E5AAE /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		412B10432C51905300A1CB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		412B10452C51905400A1CB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412B10482C51905400A1CB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		412B10512C52A66300A1CB32 /* ReadBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBook.swift; sourceTree = "<group>"; };
+		412B10552C52B22800A1CB32 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		412B10572C52B74A00A1CB32 /* AddBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		412B10592C564AC100A1CB32 /* DetailBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookView.swift; sourceTree = "<group>"; };
+		412B105D2C56878100A1CB32 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
+		412B10612C5ABFB500A1CB32 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		413FF7BF2C5BAAAA006E5AAE /* BookReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewView.swift; sourceTree = "<group>"; };
+		413FF7C12C5BB955006E5AAE /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				412B10412C51905300A1CB32 /* BookwormApp.swift */,
 				412B10432C51905300A1CB32 /* ContentView.swift */,
+				412B10572C52B74A00A1CB32 /* AddBookView.swift */,
+				413FF7BF2C5BAAAA006E5AAE /* BookReviewView.swift */,
+				412B10612C5ABFB500A1CB32 /* BookRowView.swift */,
+				412B10552C52B22800A1CB32 /* RatingView.swift */,
+				412B10592C564AC100A1CB32 /* DetailBookView.swift */,
+				412B10512C52A66300A1CB32 /* ReadBook.swift */,
+				413FF7C12C5BB955006E5AAE /* Books.swift */,
+				412B105D2C56878100A1CB32 /* BookSearchManager.swift */,
 				412B10452C51905400A1CB32 /* Assets.xcassets */,
 				412B10472C51905400A1CB32 /* Preview Content */,
 			);
@@ -138,7 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				412B10442C51905300A1CB32 /* ContentView.swift in Sources */,
+				412B105A2C564AC100A1CB32 /* DetailBookView.swift in Sources */,
 				412B10422C51905300A1CB32 /* BookwormApp.swift in Sources */,
+				413FF7C22C5BB955006E5AAE /* Books.swift in Sources */,
+				412B10522C52A66300A1CB32 /* ReadBook.swift in Sources */,
+				412B10622C5ABFB500A1CB32 /* BookRowView.swift in Sources */,
+				413FF7C02C5BAAAA006E5AAE /* BookReviewView.swift in Sources */,
+				412B10562C52B22800A1CB32 /* RatingView.swift in Sources */,
+				412B10582C52B74A00A1CB32 /* AddBookView.swift in Sources */,
+				412B105E2C56878100A1CB32 /* BookSearchManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,7 +40,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		417FA35D2CA0C75400F03FE1 /* Media */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Media; sourceTree = "<group>"; };
+		417FA36C2CA2CF3600F03FE1 /* Screenshots */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		412B10402C51905300A1CB32 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
-				417FA35D2CA0C75400F03FE1 /* Media */,
+				417FA36C2CA2CF3600F03FE1 /* Screenshots */,
 				41EE0F4D2C74C14300E3509E /* Info.plist */,
 				412B10412C51905300A1CB32 /* BookwormApp.swift */,
 				412B10432C51905300A1CB32 /* ContentView.swift */,
@@ -116,7 +116,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				417FA35D2CA0C75400F03FE1 /* Media */,
+				417FA36C2CA2CF3600F03FE1 /* Screenshots */,
 			);
 			name = Bookworm;
 			productName = Bookworm;

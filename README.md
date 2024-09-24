@@ -1,5 +1,7 @@
 # Bookworm
 
+Added Google Books API to make the app more visual and fuctional
+
 ![Screenshot](Bookworm/Screenshots/Light/ScreenshotLight2.png)
 ![Screenshot](Bookworm/Screenshots/Light/ScreenshotLight4.png)
 ![Screenshot](Bookworm/Screenshots/Light/ScreenshotLight12.png)
